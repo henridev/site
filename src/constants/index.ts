@@ -1,0 +1,9 @@
+export const STAR_COUNT = 300;
+export const OCTA_ROTATION_DY = 0.005;
+export const OCTA_ROTATION_DZ = 0.01;
+export const OCTA_ROTATION_DX = OCTA_ROTATION_DY;
+export const CENTRAL_OCTAHEDRON_COLOR = 0x4f0000;
+export const ASPECT_RATIO = window.innerWidth / window.innerHeight;
+export const PLANET_IMAGE_PATH_PREFIX = "assets/solar-system";
+export const FOV = 100;
+export const STARTING_POSITION = { x: 100, y: 10, z: 30 };
