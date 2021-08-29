@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && cp -r assets/* ./dist/assets",
+    "build": "tsc && vite build",
+    "postbuild": "cp -r assets/* ./dist/assets",
     "serve": "vite preview"
   },
   "devDependencies": {
