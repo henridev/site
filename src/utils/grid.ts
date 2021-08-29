@@ -1,3 +1,3 @@
-import * as THREE from "three";
+// import * as THREE from "three";
 
-export const gridHelper = new THREE.GridHelper(200, 50);
+// export const gridHelper = new THREE.GridHelper(200, 50);

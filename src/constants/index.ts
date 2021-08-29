@@ -6,4 +6,6 @@ export const CENTRAL_OCTAHEDRON_COLOR = 0x4f0000;
 export const ASPECT_RATIO = window.innerWidth / window.innerHeight;
 export const PLANET_IMAGE_PATH_PREFIX = "assets/solar-system";
 export const FOV = 100;
-export const STARTING_POSITION = { x: 100, y: 10, z: 30 };
+export const STARTING_POSITION = { x: 200, y: 30, z: 250 };
+export const REVOLUTION_SPEED = 0.05;
+export const ROTATION_SPEED = 0.005;
